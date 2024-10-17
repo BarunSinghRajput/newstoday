@@ -1,0 +1,81 @@
+h1{
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;    
+}
+h3{
+    text-align: center;
+     
+}
+.featurette-heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+
+}
+.lead {
+    text-align: center;    
+}
+.contact{
+    color: rgb(4, 255, 255);
+}
+ 
+main {
+    margin: 20px 0;
+}
+
+.news-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-item {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.news-item h2 {
+    margin: 10px 0;
+}
+
+.news-item p {
+    color: #555;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    color: #007bff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .news-section {
+        grid-template-columns: 1fr;
+    }
+}
